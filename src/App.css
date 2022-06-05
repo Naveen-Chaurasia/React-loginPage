@@ -89,6 +89,7 @@
 	 background: #fff;
 	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
+// hover functionality
  section#entry-page form button:hover {
 	 background-color: #eef;
 	 border: 1px solid #aaf;
