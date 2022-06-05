@@ -62,3 +62,13 @@ for routing
 // // to log results (for example: reportWebVitals(console.log))
 // // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // reportWebVitals();
+
+
+
+
+for routing external url
+const imageClick = () => 
+{
+   setIsClicked(true);
+   window.location.href = "http://neodash.graphapp.io/";
+}
