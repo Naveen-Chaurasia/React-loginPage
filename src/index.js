@@ -72,3 +72,34 @@ const imageClick = () =>
    setIsClicked(true);
    window.location.href = "http://neodash.graphapp.io/";
 }
+
+
+
+
+
+adding footer
+
+import React from "react";
+import "./style.css";
+
+const Footer = () => (
+  <div className="footer">
+    <p> © 2022 ************************ </p>
+  </div>
+);
+
+export default Footer;
+
+
+footer{
+  padding-left: 10px;
+  text-align: right;
+  background-color: rgb(1, 1, 94);
+  margin-top: 3rem;
+  padding: .15rem;
+  /* background-color: rgb(235, 195, 64); */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
