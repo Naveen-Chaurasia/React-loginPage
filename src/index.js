@@ -103,3 +103,22 @@ footer{
   left: 0;
   width: 100%;
 }
+
+
+
+
+//for providing sso login
+
+
+{
+  "ssoEnabled": true,
+  "ssoDiscoveryUrl": "http://localhost:7474/browser/",
+  "standalone": true,
+  "standaloneProtocol": "bolt",
+  "standaloneHost": "localhost",
+  "standalonePort": "7687",
+  "standaloneDatabase": "ardhi44",
+  "standaloneDashboardName": "**",
+  "standaloneDashboardDatabase": "**",
+  "standaloneDashboardURL": ""
+}
