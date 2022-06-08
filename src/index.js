@@ -335,8 +335,8 @@ export const SSOLoginButton = ({discoveryAPIUrl, onSSOAttempt}) => {
 
 
 
-
-
+//for adding logo
+<img src="logo.png" height="100px" width="100px" />
 
 
 }
